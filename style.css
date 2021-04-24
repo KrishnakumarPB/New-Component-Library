@@ -1,0 +1,152 @@
+.container
+{
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 200px;
+}
+a
+{
+    text-decoration: none;
+}
+.primarylink
+{
+    /* background-color: blue;
+    border-radius:12px;
+    border: 1px solid;
+    color: white; */
+    color: white;
+    background-color: rgb(126, 31, 110);
+    border: 1px solid rgb(94, 89, 89);
+    border-radius: 0.5rem;
+}
+.secondarylink
+{
+    color: white;
+    background-color: rgb(236, 234, 86);
+    border: 1px solid rgb(94, 89, 89);
+    border-radius: 0.5rem;
+}
+.buttons
+{
+    min-width: 140px;
+    max-width: max-content;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.withoutbullets
+{
+    list-style: none;
+}
+.listinline li
+{
+    display: inline;
+    padding: 0 0.5rem;
+}
+    
+ul {
+    
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.navigation
+{
+    background-color: chocolate;
+    padding: 1rem;
+    border-radius: 25px;
+}
+.navigation li
+{
+    
+    display: inline;
+    padding: 0 0.5rem;
+}
+.containerhero
+{
+    color: rgb(0, 0, 0);
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+.headerimg
+{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+section.sectionclass
+{
+    background-color: violet;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+}
+footer {
+    background-color:rgb(255, 115, 0);
+    padding: 1rem 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+section {
+    padding: 2rem 0;
+}
+.buttonitem
+{
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    color: rgb(240, 240, 240);
+    background-color: rgb(70, 89, 196);
+}
+.buttons li
+{
+    display:inline-block;
+    padding: 2rem 3rem;
+    
+}
+.window
+ {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+.hidden
+{
+    display: none;
+}
+.closemodal 
+{
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }
